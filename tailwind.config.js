@@ -4,27 +4,33 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
     // 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
-  darkMode: 'class',
+  // darkMode: 'class',
   theme: {
     extend: {
       colors: {
         primary: {
-          100: '#007BFF', // primary-background
-          200: '#fff', // primary-text
+          100: '#f5f5f5', // primary-background
+          200: '#555', // primary-text
         },
         secondary: {
           100: '#FFF', // secondary background
-          200: '#212529', //secondary text
+          200: '#333', //secondary text
         },
         accent: {
-          100: '#FFC107', // first accent
+          100: '#007BFF', // first accent,
+          200: '#0056B3'
         },
+        input: {
+          100: '#f9f9f9',
+          200: '#ccc',
+          300: '#333'
+        }
       }
     },
   },
   variants: {
     extend: {
-      colors: ['dark'],
+      // colors: ['dark'],
     },
   },
   plugins: [

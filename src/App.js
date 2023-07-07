@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router, Route, Routes
 } from 'react-router-dom'
 
-import { Login, Signup, Reset, Home } from './pages'
+import { Login, Signup, Reset } from './pages'
 
 function App() {
   return (
