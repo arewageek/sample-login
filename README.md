@@ -1,4 +1,4 @@
-#REACT AUTHENTICATION SYSTEM
+# REACT AUTHENTICATION SYSTEM
 
 This is just a sample project on an authentication system designed using react js for the Applinet Internship Program (An Interview)
 
